@@ -1,1 +1,2 @@
 # HashiraAssignment
+This project solves a custom secret sharing algorithm using manual base conversion and precise Lagrange interpolation without any external libraries. Given encoded (x, y) points in various bases, it decodes the values, filters out incorrect points, and computes the secret constant c of a hidden polynomial. For the provided test cases, the correct outputs were 3 for Test Case 1 and 79836264049851 for Test Case 2.
